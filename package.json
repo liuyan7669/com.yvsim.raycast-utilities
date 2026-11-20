@@ -1,0 +1,39 @@
+{
+  "name": "com.yvsim.raycast-utilities",
+  "version": "1.0.0",
+  "displayName": "Raycast Utilities",
+  "description": "面向 Unity 3D Physics 的可视化射线检测组件，适合交互探测、视野采样、障碍检查和具有厚度的范围投射。\n\n主要功能：\n1. 以物体本地 +Z 为前方，组合前、后、左、右直线检测。\n2. 扇形支持 Plane 单扇面、Volume 上下旋转多扇面，以及 Solid3D 沿本地 Y 轴平移的多层平行扇面。\n3. 使用 BoxCast 沿前方投射方块，可配置半尺寸及是否跟随 Transform 缩放。\n4. 选择每条路径最近无遮挡命中或穿透全部命中；统一结果按 Collider 去重、按距离排序，并同步触发完成事件。\n5. 配置距离、LayerMask 和 Trigger 策略，读取采样起点/方向及原始命中，在 Scene 中预览检测形状。\n\n使用说明：不适用于 Physics2D；Scene 预览需开启 Gizmos，不会自动生成 Game 视图检测线。依赖 Inspector Groups，附带五种投射形态和两种检测模式的完整场景。",
+  "unity": "2021.3",
+  "author": {
+    "name": "Yvsim"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.modules.physics": "1.0.0",
+    "com.yvsim.inspector-groups": "1.0.0"
+  },
+  "keywords": [
+    "raycast",
+    "boxcast",
+    "physics",
+    "gizmos",
+    "sensor"
+  ],
+  "samples": [
+    {
+      "displayName": "All Raycasters",
+      "description": "打开 Raycast Utilities Demo.unity，在 Scene 查看直线、Plane/Volume/Solid3D 扇形和方块投射预览；运行后切换最近/穿透检测，执行统一 Cast，检查去重结果、原始采样和 BoxCast NonAlloc 接口。",
+      "path": "Samples~/All Raycasters"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/com.yvsim.raycast-utilities.git"
+  },
+  "documentationUrl": "https://github.com/liuyan7669/com.yvsim.raycast-utilities#readme",
+  "changelogUrl": "https://github.com/liuyan7669/com.yvsim.raycast-utilities/blob/main/CHANGELOG.md",
+  "bugs": {
+    "url": "https://github.com/liuyan7669/com.yvsim.raycast-utilities/issues"
+  },
+  "licensesUrl": "https://github.com/liuyan7669/com.yvsim.raycast-utilities/blob/main/LICENSE.md"
+}

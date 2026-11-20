@@ -1,0 +1,7 @@
+{
+  "name": "Yvsim.RaycastUtilities",
+  "rootNamespace": "Yvsim.RaycastUtilities",
+  "references": [
+    "Yvsim.InspectorGroups"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Yvsim.RaycastUtilities.Editor.Tests",
+  "rootNamespace": "Yvsim.RaycastUtilities.Tests",
+  "references": [
+    "Yvsim.RaycastUtilities",
+    "Yvsim.RaycastUtilities.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "autoReferenced": false
+}

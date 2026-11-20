@@ -1,0 +1,13 @@
+{
+  "name": "Yvsim.RaycastUtilities.Editor",
+  "rootNamespace": "Yvsim.RaycastUtilities.Editor",
+  "references": [
+    "Yvsim.RaycastUtilities",
+    "Yvsim.InspectorGroups.Editor",
+    "Yvsim.InspectorGroups"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

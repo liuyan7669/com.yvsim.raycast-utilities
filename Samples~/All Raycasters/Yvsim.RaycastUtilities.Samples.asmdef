@@ -1,0 +1,7 @@
+{
+  "name": "Yvsim.RaycastUtilities.Samples",
+  "rootNamespace": "Yvsim.RaycastUtilities.Samples",
+  "references": [
+    "GUID:a418dc3509a84dfe9ae15d2f4567af9b"
+  ]
+}
